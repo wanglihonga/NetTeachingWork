@@ -56,6 +56,10 @@ void NetTeachingWork::loginSystem()
 		QMessageBox::warning(NULL,QString::fromLocal8Bit("数据库操作"),QString::fromLocal8Bit("操作失败"));
 		return;
 	}
+	else
+	{
+
+	}
 	//判断数据库中是否存在用户数据
 	int is_UserData_Flag = 0; 
 	while (query.next())
